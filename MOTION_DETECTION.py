@@ -36,7 +36,7 @@ regions = [
     (431,158),
     (475,192)
 ]
-cap = cv2.VideoCapture('resources/vtest.avi.mp4')
+cap = cv2.VideoCapture('vtest.avi.mp4')
 # cap = cv2.VideoCapture(0)
 _, frame01 = cap.read()
 _, frame02 = cap.read()
